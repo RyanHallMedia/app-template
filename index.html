@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Bootstrap Template</title>
+
+    <meta name="description" content="Fully customizable bootstrap template, perfect for your next web project">
+    <meta name="keywords" content="bootstrap, template, sass">
+    <meta name="author" content="Ryan Hall">
+
+    <!-- google font -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,300,600,400,700' rel='stylesheet' type='text/css'> 
+    <!-- icon font -->
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/normalize.css">        
+
+  	<!-- style -->
+    <link rel="stylesheet" media="screen and (max-width:767px)" href="css/styles_xs.css">
+    <link rel="stylesheet" media="screen and (min-width:768px) and (max-width:991px)" href="css/styles_sm.css">
+    <link rel="stylesheet" media="screen and (min-width:992px) and (max-width:1199px)" href="css/styles_md.css">
+    <link rel="stylesheet" media="screen and (min-width:1200px)" href="css/styles.css">
+
+    <!-- dropdown -->
+    <link rel="stylesheet" href="css/cs-select.css">
+    <link rel="stylesheet" href="css/cs-skin-border.css"> 
+
+    <!-- animations -->
+    <link rel="stylesheet" type="text/css" href="css/animate.css"><!-- on page scroll -->
+    <link rel="stylesheet" type="text/css" href="css/animations.css"><!-- on page load -->
+
+  	<!-- favicons -->
+    <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="img/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="img/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="img/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="img/favicon/android-chrome-192x192.png" sizes="192x192">
+    <meta name="msapplication-square70x70logo" content="img/favicon/smalltile.png" />
+    <meta name="msapplication-square150x150logo" content="img/favicon/mediumtile.png" />
+    <meta name="msapplication-wide310x150logo" content="img/favicon/widetile.png" />
+    <meta name="msapplication-square310x310logo" content="img/favicon/largetile.png" />
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script services="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <!-- mobile navigation -->
+    <div class="movilenav">
+        <div class="navmenuclose">
+            <i class="fa fa-times"></i>
+        </div>
+        <div class="list">
+            <span class="menuitem">ABOUT</span>
+            <span class="menuitem">FEATURES</span>
+            <span class="menuitem">SERVICES</span>
+            <span class="menuitem">DONATE</span>
+            <span class="menuitem">CONTACT</span>
+        </div>
+    </div>
+    <!-- start container -->
+    <div class="container">
+        <!-- page navigation -->         
+        <nav id="nav" class="row nav preanimate">
+            <!-- img in nav -->
+            <div class="navlogo col-xs-8 col-sm-2">
+                <a href="#" class="navlogoBig"></a>
+                <a href="#" class="navlogosmall"></a>
+            </div>
+            <!-- text in nav -->
+            <div id="nav-in" class="navlist col-sm-9">
+                <ul class="navigation row navul">
+                    <li class="addit navitem firstnavitem" data-slide="0">top</li>
+                    <li class="addit navitem" data-slide="1">ABOUT</li>
+                    <li class="addit navitem" data-slide="2">FEATURES</li>
+                    <li class="addit navitem" data-slide="3">SERVICES</li>                
+                    <li class="addit navitem" data-slide="4">DONATE</li>
+                    <li class="addit navitem" data-slide="5">CONTACT</li>             
+                    <li class="navitem drop">
+                        <!-- nav dropdown -->
+                        <select class="cs-select cs-skin-border">
+                            <option value="" disabled>Preferred language</option>
+                            <option value="email" selected>En</option>
+                            <option value="twitter">Fr</option>
+                            <option value="linkedin">ES</option>
+                        </select>
+                    </li>     
+                </ul>
+            </div>
+            <!-- mobile nav button -->
+            <div class="navmenu col-xs-4 col-sm-1">
+                <div class="menu"></div>
+            </div>
+        </nav>
+        <!-- page header -->
+        <header id="slide0" data-slide="0" class="slide useit row">
+            <div class="coloroverlay"></div><!-- gradient overlay -->
+            <!-- main header content -->
+            <div class="headcontent">
+                <h1 class="preanimate">One Kick Ass Title For A Kick Ass Template</h1>
+                <h2 class="preanimate">Seriously Though How Much Ass Does This Kick</h2>
+                <div class="mainbutton preanimate">
+                    <button class="btn-main" type="button">Information</button>
+                </div>
+            </div>
+            <div class="movedown floating"><!-- scroll down button -->
+                <a href="#" class="button buttonmove" id="button" data-slide="1">
+                    <svg version="1.1" id="mouse" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                         viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve">
+                        <path fill="none" stroke-width="0.5" stroke-miterlimit="10" d="M14.7,5.6c0-2.6-2.1-4.7-4.7-4.7S5.3,3,5.3,5.6
+                            v8.8c0,2.6,2.1,4.7,4.7,4.7s4.7-2.1,4.7-4.7V5.6z"/>
+                        <line fill="none" stroke-width="0.5" stroke-linecap="round" stroke-miterlimit="10" x1="10" y1="3.5" x2="10" y2="6"/>
+                    </svg>
+                </a>
+            </div>
+        </header>
+        <!-- first section -->
+        <section id="slide1" data-slide="1" class="slide useit row about">
+            <div class="aboutin">
+                <h2 class="sub preanimate">About This Template</h2>
+                <hr />
+                <p class="sub preanimate">I know this template looks like it might be for an app or some software product, and it works great for that, but there are many more purposes fot this template. There are a lot of different features and qualities you will find usefull for your project.</p>
+            </div>
+            <div class="aboutout row">
+                <h2 class="sub preanimate">Noteworthy</h2>
+                <hr />
+                <div class="col-md-12 col-lg-11 contain preanimate">
+                    <div class="col-sm-6 col-md-3">
+                        <i class="fa fa-photo"></i>
+                        <h3>Design</h3>
+                        <p>Really though check out this awesome design. Your website is going to have the most up to date look.</p>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <i class="fa fa-cogs"></i>
+                        <h3>Functionality</h3>
+                        <p>Really though check out this awesome design. Your website is going to have the most up to date look.</p>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <i class="fa fa-user"></i>
+                        <h3>Usability</h3>
+                        <p>Really though check out this awesome design. Your website is going to have the most up to date look.</p>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <i class="fa fa-diamond"></i>
+                        <h3>Quality</h3>
+                        <p>Really though check out this awesome design. Your website is going to have the most up to date look.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- back to top button  -->
+            <div class="backtotop">
+                <a class="button bup" id="button" data-slide="0"><i class="fa fa-chevron-up"></i></a>
+            </div>
+            <div class="clearfix"></div>
+        </section>
+        <!-- second section -->
+        <section id="slide2" data-slide="2" class="slide useit row feat">
+            <h2 class="sub preanimate">Different Features</h2>
+            <hr class="first" />
+            <div class="featone">
+                <div class="col-sm-4 col-md-5 col-lg-6 left">
+                    <img src="img/watch.png" class="preanimate">
+                </div>
+                <div class="col-sm-8 col-md-7 col-lg-6 right">
+                    <h3>This is the first list of features</h3>
+                    <p>I just wanted to put some text here for now so that I have words here while I design. I am going to go back and change this later so that it looks less stupid</p>
+                    <hr class="second" />
+                    <div class="clearfix"></div>
+                    <div class="featitem row">
+                        <i class="col-xs-2 col-sm-1 fa fa-shirtsinbulk"></i>
+                        <h4 class="col-xs-10 col-sm-11">Here I can list this awesome feature where this template does something</h4>
+                    </div>
+                    <div class="featitem row">
+                        <i class="col-xs-2 col-sm-1 fa fa-shirtsinbulk"></i>
+                        <h4 class="col-xs-10 col-sm-11">Here I can list this awesome feature where this template does something</h4>
+                    </div>
+                    <div class="featitem row">
+                        <i class="col-xs-2 col-sm-1 fa fa-shirtsinbulk"></i>
+                        <h4 class="col-xs-10 col-sm-11">Here I can list this awesome feature where this template does something</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="feattwo">
+                <div class="col-sm-8 col-md-7 col-lg-6 left">
+                    <h3>This is the first list of features</h3>
+                    <p>I just wanted to put some text here for now so that I have words here while I design. I am going to go back and change this later so that it looks less stupid</p>
+                    <hr class="second" />
+                    <div class="clearfix"></div>
+                    <div class="featitem row">
+                        <i class="col-xs-2 col-sm-1 fa fa-shirtsinbulk"></i>
+                        <h4 class="col-xs-10 col-sm-11">Here I can list this awesome feature where this template does something</h4>
+                    </div>
+                    <div class="featitem row">
+                        <i class="col-xs-2 col-sm-1 fa fa-shirtsinbulk"></i>
+                        <h4 class="col-xs-10 col-sm-11">Here I can list this awesome feature where this template does something</h4>
+                    </div>
+                    <div class="featitem row">
+                        <i class="col-xs-2 col-sm-1 fa fa-shirtsinbulk"></i>
+                        <h4 class="col-xs-10 col-sm-11">Here I can list this awesome feature where this template does something</h4>
+                    </div>                   
+                </div>
+                <div class="col-sm-4 col-md-5 col-lg-6 right">
+                    <img src="img/iphone.png" class="preanimate">
+                </div>
+            </div>
+            <div class="featthree">
+                <div class="col-sm-4 col-md-5 col-lg-6 left">
+                    <img src="img/browser.png" class="preanimate">
+                </div>
+                <div class="col-sm-8 col-md-7 col-lg-6 right">
+                    <h3>This is the first list of features</h3>
+                    <p>I just wanted to put some text here for now so that I have words here while I design. I am going to go back and change this later so that it looks less stupid</p>
+                    <hr class="second" />
+                    <div class="clearfix"></div>
+                    <div class="featitem row">
+                        <i class="col-xs-2 col-sm-1 fa fa-shirtsinbulk"></i>
+                        <h4 class="col-xs-10 col-sm-11">Here I can list this awesome feature where this template does something</h4>
+                    </div>
+                    <div class="featitem row">
+                        <i class="col-xs-2 col-sm-1 fa fa-shirtsinbulk"></i>
+                        <h4 class="col-xs-10 col-sm-11">Here I can list this awesome feature where this template does something</h4>
+                    </div>
+                    <div class="featitem row">
+                        <i class="col-xs-2 col-sm-1 fa fa-shirtsinbulk"></i>
+                        <h4 class="col-xs-10 col-sm-11">Here I can list this awesome feature where this template does something</h4>
+                    </div>
+                </div>
+            </div>            
+        </section>
+        <!-- third section -->
+        <section id="slide3" data-slide="3" class="slide useit row service">
+            <h2 class="sub preanimate">Quality Services</h2>
+            <hr />
+            <p class="sub preanimate">Would you look at this kick ass template already. This thing is awesome! Why havent you downloaded it already? Come on man this thing is pretty sweet</p>
+            <div class="servicedisplay row">
+                <div class="col-sm-4 col-md-4 col-md-offset-0 col-lg-3 col-lg-offset-1 left preanimate">
+                    <h3>Here Could Be A VIsual Of Stuff The App Does</h3>
+                    <h4>So you could lay out a visual of things that your app does. Have a picture of the home screen, or the main screen that you use. On the other side you can have a list of the the services your app does. Thats awesome.</p>
+                    <i class="fa fa-thumbs-up"></i>
+                </div>
+                <div class="col-sm-4 col-md-4 center preanimate">
+                    <img src="img/iphone2.png">
+                </div>
+                <div class="col-sm-4 col-md-4 col-lg-3 right preanimate">
+                    <div class="serviceitem row">
+                        <span class="col-xs-1 fa-stack fa-xs">
+                          <i class="fa fa-circle fa-stack-2x"></i>
+                          <i class="fa fa-check fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="col-xs-11">This is awesome right</h4>
+                    </div> 
+                    <div class="serviceitem row">
+                        <span class="col-xs-1 fa-stack fa-xs">
+                          <i class="fa fa-circle fa-stack-2x"></i>
+                          <i class="fa fa-check fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="col-xs-11">This is awesome right</h4>
+                    </div> 
+                    <div class="serviceitem row">
+                        <span class="col-xs-1 fa-stack fa-xs">
+                          <i class="fa fa-circle fa-stack-2x"></i>
+                          <i class="fa fa-check fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="col-xs-11">This is awesome right</h4>
+                    </div> 
+                    <div class="serviceitem row">
+                        <span class="col-xs-1 fa-stack fa-xs">
+                          <i class="fa fa-circle fa-stack-2x"></i>
+                          <i class="fa fa-check fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="col-xs-11">This is awesome right</h4>
+                    </div> 
+                    <div class="serviceitem row">
+                        <span class="col-xs-1 fa-stack fa-xs">
+                          <i class="fa fa-circle fa-stack-2x"></i>
+                          <i class="fa fa-check fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="col-xs-11">This is awesome right</h4>
+                    </div>                                                                                                    
+                </div>
+            </div>
+            <div class="servicelist row">
+                <h2 class="sub preanimate">Bonus Addons</h2>
+                <hr />
+                <p class="sub preanimate">Would you look at this kick ass template already. This thing is awesome! Why havent you downloaded it already? Come on man this thing is pretty sweet</p>
+                <div class="col-md-12 col-md-offset-0 col-lg-10 col-lg-offset-1">
+                    <div class="row">
+                        <div class="col-sm-6 col-md-4 list">
+                            <i class="fa fa-bed"></i>
+                            <h3>Accordian</h3>
+                            <p class="slist">Here is a small amount of text to fill this space. Nothing more, nothing less. You shouldnt be reading content anyways.</p>
+                        </div>
+                        <div class="col-sm-6 col-md-4 list">
+                            <i class="fa fa-sellsy"></i>
+                            <h3>Slider</h3>
+                            <p class="slist">Here is a small amount of text to fill this space. Nothing more, nothing less. You shouldnt be reading content anyways.</p>
+                        </div>
+                        <div class="col-sm-6 col-md-4 list">
+                            <i class="fa fa-motorcycle"></i>
+                            <h3>Tabs</h3>
+                            <p class="slist">Here is a small amount of text to fill this space. Nothing more, nothing less. You shouldnt be reading content anyways.</p>
+                        </div>
+                        <div class="col-sm-6 col-md-4 list">
+                            <i class="fa fa-street-view"></i>
+                            <h3>Scroll To</h3>
+                            <p class="slist">Here is a small amount of text to fill this space. Nothing more, nothing less. You shouldnt be reading content anyways.</p>
+                        </div>
+                        <div class="col-sm-6 col-md-4 list">
+                            <i class="fa fa-forumbee"></i>
+                            <h3>Mobile</h3>
+                            <p class="slist">Here is a small amount of text to fill this space. Nothing more, nothing less. You shouldnt be reading content anyways.</p>
+                        </div>
+                        <div class="col-sm-6 col-lg-4 list">
+                            <i class="fa fa-medium"></i>
+                            <h3>Sass</h3>
+                            <p class="slist">Here is a small amount of text to fill this space. Nothing more, nothing less. You shouldnt be reading content anyways.</p>
+                        </div>                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- fourth section -->
+        <section id="slide4" data-slide="4" class="slide useit row donate">
+            <div class="col-sm-6 left">
+                <h2 class="sub preanimate">Donate To A Cause</h2>
+                <hr />
+                <div class="clearfix"></div>
+                <p class="sub preanimate">You could donate the the awesome cause of paying for my rent with just one easy payment of whatever the distributer and I have agreed apon</p>
+            </div>
+            <div class="col-sm-6 right"></div>
+        </section> 
+        <section id="slide7" data-slide="7" class="slide row slider">
+            <h2 class="sub preanimate">Kick Ass Slider</h2>
+            <hr />
+            <p class="sub preanimate">Would you look at this kick ass template already. This thing is awesome! Why havent you downloaded it already? Come on man this thing is pretty sweet</p>            
+            <!-- carousel -->
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner" role="listbox">
+                <div class="item active row">
+                    <div class="col-sm-12 col-md-8">
+                        <div class="col-sm-6">
+                            <div class="card">
+                                <div class="topcolor"></div>
+                                <div class="bottomtext">
+                                    <span class="title">Here is the small title</span>
+                                    <span class="desc">This is the small description</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="card">
+                                <div class="topcolor"></div>
+                                <div class="bottomtext">
+                                    <span class="title">Here is the small title</span>
+                                    <span class="desc">This is the small description</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-4 cardtext">
+                        <h3>This is the title for the cards</h2>
+                        <hr />
+                        <div class="clearfix"></div>
+                        <p>Some small supporting text so that you know why these cards are grouped together. This makes sence</p>
+                    </div>
+                </div>
+                <div class="item row">
+                    <div class="col-sm-12 col-md-8">
+                        <div class="col-sm-6">
+                            <div class="card">
+                                <div class="topcolor"></div>
+                                <div class="bottomtext">
+                                    <span class="title">Here is the small title</span>
+                                    <span class="desc">This is the small description</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="card">
+                                <div class="topcolor"></div>
+                                <div class="bottomtext">
+                                    <span class="title">Here is the small title</span>
+                                    <span class="desc">This is the small description</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-4 cardtext">
+                        <h3>This is the title for the cards</h2>
+                        <hr />
+                        <div class="clearfix"></div>
+                        <p>Some small supporting text so that you know why these cards are grouped together. This makes sence</p>
+                    </div>
+                </div>
+              </div>
+              <!-- Controls -->
+              <a class="left control" href="#carousel-example-generic" role="button" data-slide="prev">
+                <span class="fa fa-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="right control" href="#carousel-example-generic" role="button" data-slide="next">
+                <span class="fa fa-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+        </section> 
+        <section id="slide8" data-slide="8" class="slide row midcity">
+            <h2 class="sub preanimate">Another Section</h2>
+            <hr />
+            <p class="sub preanimate">Would you look at this kick ass template already. This thing is awesome! Why havent you downloaded it already? Come on man this thing is pretty sweet</p>
+            <div class="col-sm-12 col-sm-offset-0 col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2 process">
+                <div class="row moveitplease preanimate">
+                    <div class="col-xs-6 col-sm-3">
+                        <img src="img/user1.png">
+                    </div>
+                    <div class="col-xs-6 col-sm-1">
+                        <i class="fa fa-arrow-right"></i>
+                    </div>
+                    <div class="col-xs-12 col-sm-3">
+                      <img class="processlogo" src="img/logosmall.svg">                     
+                    </div>
+                    <div class="col-xs-6 col-sm-1">
+                        <i class="fa fa-arrow-right"></i>
+                    </div>
+                    <div class="col-xs-6 col-sm-3">
+                        <span class="fa-stack fa-lg">
+                          <i class="fa fa-circle fa-stack-2x"></i>
+                          <i class="fa fa-bolt fa-stack-1x fa-inverse"></i>
+                        </span>
+                    </div>
+                </div>
+            </div>   
+        </section>
+        <section id="slide5" data-slide="5" class="slide useit row tryit">
+            <div class="overlay"></div>
+            <div class="overlaytwo"></div>
+            <div class="col-sm-12 col-sm-offset-0 col-md-10 col-md-offset-1 aboveoverlay">
+                <div class="row tryitcontent preanimate">
+                    <div class="col-xs-12 col-sm-8 col-md-8 col-lg-6">
+                        <h3>Download it already</h3>
+                        <h4>Really though, all the cool kids already downloaded it. Come on man you're late to the game</h4>
+                    </div>
+                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-6">
+                        <button class="btn-download" type="button">Download</button>
+                    </div>
+                </div>
+            </div>
+        </section>       
+        <footer id="slide6" data-slide="6" class="slide row contact">
+            <div class="col-sm-12 col-md-2 sitemap1 contactcontent preanimate">
+                <div class="sitemap">
+                    <h2>Site Map</h2>
+                    <a href="#" class="sitelink">About</a>
+                    <a href="#" class="sitelink">Features</a>
+                    <a href="#" class="sitelink">Services</a>
+                    <a href="#" class="sitelink">Donate</a>
+                    <a href="#" class="sitelink">Contact</a>
+                </div>
+            </div>
+            <div class="col-sm-7 col-md-6 contactcontent preanimate">
+                <div class="contact">
+                    <h2>Contact</h2>
+                    <form class="form row">
+                        <div class="formgroup col-sm-6">
+                            <input class="input one" name="name" />
+                            <label class="label one">Name</label>
+                        </div>
+                        <div class="formgroup col-sm-6">
+                            <input class="input two" name="email" />
+                            <label class="label two">Email</label>
+                        </div>
+                        <div class="formgroup col-sm-12">
+                            <textarea class="input three" namne="message"></textarea>
+                            <label class="label three">Message</label>
+                        </div>
+                        <div class="submit preanimatemit">
+                            <button class="btn-submit" type="button">Submit</button>
+                        </div>
+                    </form>
+                    <div class="clearfix"></div>
+                    <div class="info row">
+                        <div class="address col-xs-12 col-sm-6">
+                            <i class="fa fa-location-arrow"></i>
+                            <h3>4672 Viewcourt Lane, Madison, WI</h3>
+                        </div>
+                        <div class="number col-xs-12 col-sm-6">
+                            <i class="fa fa-phone"></i>
+                            <h3>(555)555-5555</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-5 col-md-4 socialmedia contactcontent preanimate">
+                <div class="row social">
+                    <div class="col-xs-6 socialdif twitter">
+                        <i class="fa fa-twitter"></i>
+                        <span class="socaltext">Twitter</span>
+                    </div>
+                    <div class="col-xs-6 socialdif facebook">
+                        <i class="fa fa-facebook"></i>
+                        <span class="socaltext">Facebook</span>
+                    </div>
+                    <div class="col-xs-6 socialdif instagram">
+                        <i class="fa fa-instagram"></i>
+                        <span class="socaltext">Instagram</span>
+                    </div>
+                    <div class="col-xs-6 socialdif tumblr">
+                        <i class="fa fa-tumblr"></i>
+                        <span class="socaltext">Tumblr</span>
+                    </div>                                                            
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-2 sitemap2 contactcontent preanimate">
+                <div class="sitemap">
+                    <h2>Site Map</h2>
+                    <a href="#" class="sitelink">About</a>
+                    <a href="#" class="sitelink">Features</a>
+                    <a href="#" class="sitelink">Services</a>
+                    <a href="#" class="sitelink">Donate</a>
+                    <a href="#" class="sitelink">Contact</a>
+                </div>
+            </div>            
+        </footer>
+    </div>
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- custom js -->
+    <script type="text/javascript" src="js/js.js"></script>
+    <!-- navigation -->
+    <script src="js/jquery.waypoints.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <!-- dropdown -->
+    <script type="text/javascript" src="js/classie.js"></script>
+    <script type="text/javascript" src="js/selectFx.js"></script>
+    <!-- parallax scroll -->
+    <script src="js/jquery.stellar.js"></script>
+    <!-- bootstrap js -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- bootstrap plugins -->
+    <script type="text/javascript" src="js/carousel.js"></script>
+  </body>
+</html>
